@@ -11,6 +11,7 @@ namespace _110_1Practice2_1
     {
         protected void Application_Start(object sender, EventArgs e)
         {
+
         }
     }
 }
