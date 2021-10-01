@@ -11,10 +11,10 @@ namespace _110_1Practice2_1
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            float d_Value,c;
+            double d_Value,c;
             d_Value = 66;
-            c =d_Value - 32/(9 / 5) ;
-            Response.Write("d_Value=" + d_Value + "F = " + c);
+            c = (d_Value - 32) * 5 / 9;
+            Response.Write("d_Value=" + d_Value.ToString() + "F = " + c+"C");
         }
     }
 }
